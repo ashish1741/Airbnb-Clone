@@ -1,0 +1,48 @@
+.header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: sticky;
+    top:0;
+    background-color: #fff;
+    z-index:1000;
+   
+    
+}
+.header_center
+{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    max-width: fit-content;
+    padding: 10px;
+    height: 30px;
+    border: 1px solid lightgray;
+    border-radius: 999px;
+
+}
+.header_center > input
+{
+    border: none;
+    width: 250px;
+    outline-width: 0;
+    padding: 10px;
+}
+.logo
+{
+    object-fit: contain;
+    height: 100px;
+    margin-left: 20px;
+    
+
+}
+.header_right
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 15vw;
+    margin-right: 80px;
+}
